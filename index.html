@@ -2,7 +2,7 @@
 Requirements
 [ yes ] <div> and <span>
 [ yes ] height: and width:
-[  ] margin: and padding: 
+[ yes ] margin: and padding: 
 [ yes ] Three Images
 
 Select ONE Additional Feature to Add  
@@ -17,6 +17,9 @@ Select ONE Additional Feature to Add
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:ital,wght@0,100..900;1,100..900&family=Fleur+De+Leah&display=swap" rel="stylesheet">
     <title>Unit 5 Project</title>
     <meta charset="utf-8" />
     <style>
@@ -29,7 +32,8 @@ Select ONE Additional Feature to Add
         width: 300px;
         height: 300px;
         perspective: 1000px;
-        border: 5px solid rgb(18, 184, 54)
+        border: 5px solid rgb(18, 184, 54);
+        padding: 15px;
       }
 
       .flip-card-inner {
@@ -61,7 +65,7 @@ Select ONE Additional Feature to Add
       }
 
       .flip-card-back {
-        background-color: #2980b9;
+        background-color: rgb(20, 163, 24);
         color: white;
         transform: rotateY(180deg);
       }
@@ -75,13 +79,21 @@ Select ONE Additional Feature to Add
         
       }
       
+      .intro {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+        font-size: 50px;
+}
+
+    
       .word{
         Color:green;
       }
     </style>
   </head>
   <body>
-    <h1>Why you should come to the <span class="word">All School Musical</span>!</h1>
+    <h1 class="intro">Why you should come to the <span class="word">All School Musical</span>!</h1>
 
     <div class="main">
       <div class="flip-card">
@@ -94,9 +106,9 @@ Select ONE Additional Feature to Add
             />
           </div>
           <div class="flip-card-back">
-            <h1>John Doe</h1>
-            <p>Architect & Engineer</p>
-            <p>We love that guy</p>
+            <h1>It's going to be amazing!</h1>
+            <p>You will love this years musical and will be amazed by the talent and work put into this production.</p>
+            <p> Be ready to be awed by the magic of the show!</p>
           </div>
         </div>
       </div>
@@ -111,9 +123,9 @@ Select ONE Additional Feature to Add
             />
           </div>
           <div class="flip-card-back">
-            <h1>John Doe</h1>
-            <p>Architect & Engineer</p>
-            <p>We love that guy</p>
+            <h1>See the hardwork of tech majors!</h1>
+            <p> You will be able to see the amazing set, costumes, hair and makeup, lighting, and props created for the show.</p>
+            <p> Be ready to be transported into the woods ;)</p>
           </div>
         </div>
       </div>
@@ -128,9 +140,9 @@ Select ONE Additional Feature to Add
             />
           </div>
           <div class="flip-card-back">
-            <h1>John Doe</h1>
-            <p>Architect & Engineer</p>
-            <p>We love that guy</p>
+            <h1>See the amazing actors </h1>
+            <p>You will be amazed by thier voices, acting skills, and thier fantastic dancing!</p>
+            <p>Show some love to your peers!</p>
           </div>
         </div>
       </div>
